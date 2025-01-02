@@ -63,7 +63,39 @@ Choose **raw** and set the type to **JSON**. Use the following sample JSON paylo
         "Average Kurtosis of Numerical Features": 1.3473565423922125,
         "Minimum Kurtosis of Numerical Features": 0.3190575980238463,
         "Maximum Kurtosis of Numerical Features": 1.502076620762341,
-        "Stddev Kurtosis of Numerical Features": 0.1952716167592422
+        "Stddev Kurtosis of Numerical Features": 0.1952716167592422,
+        "Avg No. of Symbols per Categorical Features": 0.0,
+        "Min. No. Of Symbols per Categorical Features": 0.0,
+        "Max. No. Of Symbols per Categorical Features": 0.0,
+        "Stddev No. Of Symbols per Categorical Features": 0.0,
+        "Avg No. Of Stationary Features": 1.0,
+        "Min No. Of Stationary Features": 0.0,
+        "Max No. Of Stationary Features": 2.0,
+        "Stddev No. Of Stationary Features": 0.4472135954999579,
+        "Avg No. Of Stationary Features after 1st order": 2.2,
+        "Min No. Of Stationary Features after 1st order": 1.0,
+        "Max No. Of Stationary Features after 1st order": 3.0,
+        "Stddev No. Of Stationary Features after 1st order": 0.6,
+        "Avg No. Of Stationary Features after 2nd order": 2.9,
+        "Min No. Of Stationary Features after 2nd order": 2.0,
+        "Max No. Of Stationary Features after 2nd order": 3.0,
+        "Stddev No. Of Stationary Features after 2nd order": 0.3,
+        "Avg No. Of Significant Lags in Target": 0.0,
+        "Min No. Of Significant Lags in Target": 0.0,
+        "Max No. Of Significant Lags in Target": 0.0,
+        "Stddev No. Of Significant Lags in Target": 0.0,
+        "Avg No. Of Insignificant Lags in Target": 0.0,
+        "Max No. Of Insignificant Lags in Target": 0.0,
+        "Min No. Of Insignificant Lags in Target": 0.0,
+        "Stddev No. Of Insignificant Lags in Target": 0.0,
+        "Avg. No. Of Seasonality Components in Target": 2.0,
+        "Max No. Of Seasonality Components in Target": 2.0,
+        "Min No. Of Seasonality Components in Target": 2.0,
+        "Stddev No. Of Seasonality Components in Target": 0.0,
+        "Average Fractal Dimensionality Across Clients of Target": 0.009828662,
+        "Maximum Period of Seasonality Components in Target Across Clients": 13.0,
+        "Minimum Period of Seasonality Components in Target Across Clients": 2.0,
+        "Entropy of Target Stationarity": 0.3250829733914482
     }
 }
 ```
@@ -78,12 +110,12 @@ Choose **raw** and set the type to **JSON**. Use the following sample JSON paylo
 ```json
 {
     "0": {
-        "ELASTICNETCV": 0.12,
-        "HUBERREGRESSOR": 0.15,
-        "LASSO": 0.18,
-        "LinearSVR": 0.20,
-        "QUANTILEREGRESSOR": 0.25,
-        "XGBRegressor": 0.10
+        "ELASTICNETCV": 7.944891119829134e-10,
+        "HUBERREGRESSOR": 0.09174518476290221,
+        "LASSO": 0.04749160848035781,
+        "LinearSVR": 0.19160172766619232,
+        "QUANTILEREGRESSOR": 0.015493822448004764,
+        "XGBRegressor": 0.6536676558480538
     }
 }
 ```
