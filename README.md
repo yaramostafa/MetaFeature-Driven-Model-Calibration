@@ -22,7 +22,7 @@ Make sure you have:
    http://127.0.0.1:5000
    ```
 ---
-## 📬 ** Testing using Postman**
+## **3. Testing using Postman**
 
 ### **Endpoint URL**
 ```
@@ -102,7 +102,7 @@ Choose **raw** and set the type to **JSON**. Use the following sample JSON paylo
 
 ---
 
-## 📊 **Send the Request**
+## **4. Send the Request**
 
 1. Click on **Send** in Postman.
 2. If successful, you'll receive a response similar to:
