@@ -8,23 +8,25 @@ Make sure you have:
 - The model file: `final_model_with_temp_scaling.pkl`
 - **Postman** installed on your system
 ---
-## **2. Start the Flask Server**
+# Django 
+## **2. Start the Django Server**
 
-1. Save the provided Flask code in a file named `testing.py`.
-2. Run the server:
+1. Save the provided Django Dir folder named `calibration_task`.
+2. Open CMD and switch to that directory `cd calibration_task`
+3. Run the server:
    ```bash
-   python testing.py
+   python manage.py runserver
    ```
-3. The server will start on:
+4. The server will start on:
    ```
-   http://127.0.0.1:5000
+   http://127.0.0.1:8000/
    ```
----
+
 ## **3. Testing using Postman**
 
 ### **Endpoint URL**
 ```
-POST http://127.0.0.1:5000/predict
+POST http://127.0.0.1:8000/prediction/predict/
 ```
 
 ### **Headers**
@@ -119,5 +121,23 @@ Choose **raw** and set the type to **JSON**. Use the following sample JSON paylo
 ```
 
 - Each classifier will return a probability value.
+
+![image](https://github.com/user-attachments/assets/ccb9a0d0-7cc6-486b-8b28-23e724cdb037)
+
+
+---
+
+# If using Flask
+## **2. Start the Flask Server**
+
+1. Save the provided Flask code in a file named `testing.py`.
+2. Run the server:
+   ```bash
+   python testing.py
+   ```
+3. The server will start on:
+   ```
+   http://127.0.0.1:5000
+   ```
 
 ---
