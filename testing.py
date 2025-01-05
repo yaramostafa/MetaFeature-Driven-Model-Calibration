@@ -48,7 +48,7 @@ def predict():
     # Prepare the predictions dictionary
     predictions = {}
 
-    # List of classifiers (you may want to adjust based on your actual class names)
+    # List of classifiers (my target classes)
     class_names = ['ELASTICNETCV', 'HUBERREGRESSOR', 'LASSO', 'LinearSVR', 'QUANTILEREGRESSOR', 'XGBRegressor']
 
     for key, sample in input_data.items():
