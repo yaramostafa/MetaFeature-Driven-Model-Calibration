@@ -15,7 +15,7 @@ Make sure you have:
 1. Save the provided Flask code in a file named `app.py`.
 2. Run the server:
    ```bash
-   python app.py
+   python testing.py
    ```
 3. The server will start on:
    ```
