@@ -5,14 +5,12 @@ Make sure you have:
 - **Python 3.x** installed
 - Flask installed (`pip install flask`)
 - Joblib installed (`pip install joblib`)
-- The model files:
-   - `final_model.pkl`
-   - `temperature_scaler.pkl`
+- The model file: `final_model_with_temp_scaling.pkl`
 - **Postman** installed on your system
 ---
 ## **2. Start the Flask Server**
 
-1. Save the provided Flask code in a file named `app.py`.
+1. Save the provided Flask code in a file named `testing.py`.
 2. Run the server:
    ```bash
    python testing.py
